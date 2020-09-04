@@ -14,14 +14,41 @@
 
     <!-- Image and text -->
     <nav class="navbar navbar-dark bg-secondary">
-        <h2>Check List</h2>
-
-        <button type="button" class="btn btn-success">ADD</button>
-        <button type="button" class="btn btn-danger">DELETE</button>
-        <button type="button" class="btn btn-dark">CHECK</button>
+        <h2>To-Do List</h2>
+        <div class= "buttons">
+            <button type="button" class="btn btn-success">Add</button>
+            <button type="button" class="btn btn-danger">Delete</button>
+            <button type="button" class="btn btn-dark">Reset</button>
+        </div>
 
     </nav>
 
+    <!--- Input -->
+     <div class="input-group flex-nowrap" >
+     <div class="input-group-prepend">
+            <button type= "button" span class="input-group-text" id="addon-wrapping">	&#x2713;</span>
+        </div>
+        <input type="text" class="form-control" placeholder="User's Input" aria-label="Input" aria-describedby="addon-wrapping">
+     </div>
+
+    <!-- To-Do list -->
+        <ul class = "list-group-flush">
+            <li class = "list-group-item">Toothpaste</li>
+            <li class = "list-group-item"></li>
+            <li class = "list-group-item"></li>
+            <li class = "list-group-item">Shampoo</li>
+            <li class = "list-group-item">Grapes</li>
+            <li class = "list-group-item">Bananas</li>
+        </ul>
+
+    <!--
+        <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping">	&#x2713;</span>
+        </div>
+        <input type="text" class="form-control" placeholder="User's Input" aria-label="Input" aria-describedby="addon-wrapping">
+    </div>
+    --->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
