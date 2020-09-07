@@ -1,0 +1,8 @@
+ul,li,body{
+    background-color: rgb(241, 241, 149) !important;
+    margin: auto !important;
+}
+
+.navbar,h2{
+    color: white !important;
+}
