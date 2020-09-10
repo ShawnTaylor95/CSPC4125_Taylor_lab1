@@ -21,18 +21,18 @@
     </nav>
 
     <!--- Input -->
-    <div class="input-group flex-nowrap" >
+    <div class="input-group flex-nowrap">
         <div class= "buttons">
-            <button onclick = "addFunction()" button type="button" class="btn btn-success">Add</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-            <button type="button" class="btn btn-dark">Reset</button>
+            <button onclick = "addFunction()" button type="button" class="addBtn">Add</button>
+            <button onclick = "delFunction()" button type="button" class="delBtn">Delete</button>
+            <button onclick = "resetFunction()" button type="button" class="resBtn">Reset</button>
         </div>
-        <input type="text" class="form-control" placeholder="User's Input" aria-label="Input" aria-describedby="addon-wrapping">
+       <input type="text" id="userInput" name="userInput" placeholder="input ">
      </div>
 
     <!-- To-Do list -->
-        <ul class = "list-group-flush">
-            <hr class ="my-4">
+    <hr class ="my-4">
+        <ul id = "myList">
             <li>Toothpaste</li>
             <li>Shampoo</li>
             <li>Grapes</li>

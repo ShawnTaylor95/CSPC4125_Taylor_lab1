@@ -1,3 +1,17 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+    position: relative;
+  padding: 10px 6px 10px 20px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
 ul,li,body{
     background-color: rgb(241, 241, 149) !important;
     margin: auto !important;
@@ -6,3 +20,37 @@ ul,li,body{
 .navbar,h2{
     color: white !important;
 }
+
+.header {
+  padding: 30px 40px !important;
+  color: white !important;
+  text-align: center !important;
+}
+.buttons{
+    
+}
+.addBtn{
+    background-color: green;
+    color: white;
+    margin: 0px ! important;
+    padding: 10px !important;
+    position: relative !important;
+}
+
+.delBtn{
+    background-color: red;
+    color: white;
+    margin: 0px ! important;
+    padding: 10px !important;
+    position: relative !important;
+}
+
+.resBtn{
+    background-color: rgb(133, 192, 231);
+    color: white;
+    margin: 0px ! important;
+    padding: 10px !important;
+    position: relative !important;
+}
+
+
